@@ -1,10 +1,10 @@
 // our first react component
 // javascript function
 const App = () => {
-  console.log("Hello from component App");
+  const now = new Date();
   return (
     <div>
-      <p>Hello World!</p>
+      <p>Hello World!, it is{ now.toString() }</p>
     </div>
   )
 }
